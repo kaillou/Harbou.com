@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head> 
+<title>CarteBlanche - HTML/CSS theme created by Chris Fay</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/default.css" />
+<link rel="stylesheet" href="css/dropdown.css" />
+
+<script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css" />	
+<![endif]--> 
+
+
+<!-- contact form validation -->
+<script type="text/javascript">	
+  $(document).ready(function(){	
+    $("#contactForm").validate({
+		errorClass: "inputError",
+		messages: {
+			name: {
+				required: ""				
+			},
+			email: {
+				required: ""				
+			}
+		}
+	})
+  });
+</script>
+
+</head>
+<body id="page" class="inner">
+<div id="contentWrapper">
+	<div class="glow"></div>
+	<div id="wrapper">
+		<div id="header">		
+			<a href="index.html" class="logo"><span>CarteBlanche - HTML/CSS theme created by Chris Fay/Chris Fay Consulting</span></a>
+			<div id="tagline">
+				<p>Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+			</div>
+		</div><!--[END] //header -->
+		
+		<div id="mainContent">
+			<div class="col1">
+				<div class="pageTitle"><p>Get in touch with us.</p></div>				
+				
+				<!--[START] //contact form -->
+				<form id="contactForm" action="" method="post">					
+					<div class="contactFormTop"></div>
+					<div class="formContent">
+						
+						<div class="inputWrapper"><input type="text" name="name" id="name" class="input required" value="Name" /></div>
+						<label for="name">Enter your full name</label>											
+						
+						<div class="inputWrapper"><input type="text" name="email" id="email" class="input required" value="Email" /></div>
+						<label for="email">Enter your full email</label>
+						<div class="clear"></div>
+						
+						<div class="divider"></div>
+														
+						<fieldset>							
+							<div class="inputWrapper"><input type="text" name="website" id="website" class="input" value="Website" /></div>																		
+							<label class="optional">Ener a url</label>
+							<div class="clear"></div>
+							
+							<div class="inputWrapper"><input type="text" name="company" id="company" class="input" value="Company" /></div>											
+							<label class="optional">Enter your company name</label>						
+							<div class="clear"></div>
+							
+							<div class="inputWrapper"><input type="text" name="phone" id="phone" class="input" value="Phone" /></div>					
+							<label class="optional">Enter your phone number</label>
+							<div class="clear"></div>
+						</fieldset>	
+						
+						<div class="divider"></div>				
+						
+						<div class="textareaWrapper"><textarea class="textarea" name="message" rows="10" cols="10"></textarea></div>
+						<input type="submit" class="submit" value="" />									
+						<p class="tag">Thanks for taking the time to send us a note!</p>
+						<div class="clear"></div>
+					</div>
+				</form>
+				<div class="contactFormBottom"></div>	
+				<!--[END] //contact form -->	
+				
+				<div class="clear"></div>										
+										
+			</div><!--[END] //col1 -->
+			
+			<div class="col2">
+				<ul class="navigation">
+					<li><a href="index.html"><span>HOME</span></a></li>					
+					<li><a href="about.html"><span>ABOUT</span></a></li>
+					<li><a href="services.html"><span>SERVICES</span></a></li>					
+					<li><a href="portfolio.html"><span>PORTFOLIO</span></a></li>
+					<li><a href="blog.html"><span>BLOG</span></a></li>
+					<li class="current"><a href="contact.html"><span>CONTACT</span></a></li>
+				</ul>
+				
+				<div class="clear"></div>
+					
+				<div class="sidebarDivider"><p>Recent Updates</p></div>
+				<ol>
+					<li>Oluptas <a href="#">ssumenda</a> est, omnis dolor repellendus</li>
+					<li>Assumenda est, omnis dolor</li>
+					<li>Epudiandae sint et molestiae non recusandae</li>
+					<li>Sint et <a href="#">molestiae</a> non ecusanda</li>
+					<li>Consequatur aut perferendis doloribus</li>
+					<li>Reiciendis <a href="#">voluptatibus</a></li>
+				</ol>
+				
+				<!--[START] //sidebar module -->
+				<div class="sidebarModule">
+					<div class="sidebarModuleTop"></div>
+					<div class="content">
+						<div class="mcol1">
+							<img src="images/modIcon1.png" alt="icon" />
+						</div>
+						<div class="mcol2">
+							<h3>Recent Portfolio Item</h3>	
+							<p>Ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+						</div>						
+					</div>	
+					<div class="clear"></div>			
+					<div class="sidebarModuleBottom"></div>
+				</div>
+				<!--[END] //sidebar module -->
+				
+				<!--[START] //sidebar module -->
+				<div class="sidebarModule">
+					<div class="sidebarModuleTop"></div>
+					<div class="content">
+						<div class="mcol1">
+							<img src="images/modIcon2.png" alt="icon" />
+						</div>
+						<div class="mcol2">
+							<h3>Featured Service Offer!</h3>	
+							<p>Ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+						</div>						
+					</div>	
+					<div class="clear"></div>			
+					<div class="sidebarModuleBottom"></div>
+				</div>
+				<!--[END] //sidebar module -->
+							
+			</div><!--[END] //col1 -->					
+		</div><!--[END] //mainContent -->
+		<div class="clear"></div>
+	</div><!--[END] #wrapper -->
+	<div class="clear"></div>
+</div><!--[END] //contentWrapper -->
+
+<div class="clear"></div>
+
+<div id="footerWrapper">
+	<div id="footer">
+		<div id="footerBar">
+			<p class="footerTagline">Perspiciatis unde omnis iste natus error sit voluptatem. </p>
+		
+			<form action="" method="get" id="footerSearch">		
+				<input type="text" class="inputSearch" name="some_name" value="" id="s" />
+				<input type="submit" class="submitSearch" name="some_name" value="" />
+			</form>		
+		</div>		
+				
+		<div class="col1">			
+			<h2>Consequuntur magni</h2>
+			<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+		</div>
+		
+		<div class="col2">
+			<a href="#" class="connect"><span>connect</span></a><span class="colTitle">My Alter Egos..</span>
+			<div class="clear"></div>
+			<span class="divider"></span>
+			<ul class="social col1">
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Linkedin</a></li>
+				<li><a href="#">DevinatART</a></li>
+				<li><a href="#">Flickr</a></li>
+			</ul>
+			<ul class="social col2">
+				<li><a href="#">ThemeForest</a></li>
+				<li><a href="#">Last.fm</a></li>
+				<li><a href="#">Tumblr</a></li>
+				<li><a href="#">Yelp</a></li>				
+			</ul>									
+		</div>
+		
+		<div class="col3">			
+			<a href="#" class="contact"><span>contact</span></a><span class="colTitle">My Contact Details..</span>
+			<div class="clear"></div>
+			<span class="divider"></span>
+			<ul>
+				<li>p.555.435.3302</li>
+				<li>f.555.435.4560</li>
+				<li>e.<a href="#">youremail@dmoain.com</a></li>
+			</ul>
+		</div>
+		
+		<div class="clear padme"></div>
+		
+		<div id="footerBorder">
+			&copy; Copyright 2009 Your Name. All Rights Reserved.
+		</div>
+	</div><!--[END] //footer -->
+	<div class="clear"></div>
+</div><!--[END] //footerWrapper -->
+
+</body>
+</html>
+
+

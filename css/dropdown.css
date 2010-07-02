@@ -1,0 +1,13 @@
+/*#dropDownItems{text-align:left;	display:block;width:370px;height:39px;padding:27px 0 0 0;position:absolute;top:50px;left:200px;}*/
+#dropdown{z-index:110;width:610px;height:85px;background:url('../images/dropDownBG.png') no-repeat;margin:5px 0 25px 0;position:relative;}
+#dropdown label{color:#eaeff0;display:block;position:absolute;left:25px;top:30px;font-size:16px;}
+#dropdown #selectedText{color:#323E46;font-size:18px;line-height:24px;overflow:hidden;padding-left:15px;text-indent:1px;text-shadow:0 1px 0 #CED9E1;position:absolute;top:30px;left:220px;}
+#dropdown #toggleButton{background:url('../images/dd_arrow.png') no-repeat right center;width:240px;height:29px;position:absolute;right:40px;top:28px;cursor:pointer;}
+#dropdown .dropdownLabel{color:#EAEFF0;display:block;font-size:16px;left:25px;position:absolute;top:30px;}
+#dropDownItems{z-index:100;position:absolute;top:66px;left:220px;border-top:none;display:none;margin:0;width:300px!important;overflow:auto;overflow-x:hidden !important;background-color:#d9e1e8;-moz-border-radius-bottomleft: 5px;-moz-border-radius-bottomright: 5px;-webkit-border-bottom-left-radius: 5px;-webkit-border-bottom-right-radius:5px;border-left:1px solid #8b8e91;border-right:1px solid #8b8e91;	border-bottom:1px solid #8b8e91;padding:10px 0 0 0;}
+#dropDownItems li a{display:block;padding:10px 0 10px 10px;text-decoration:none;color:#242c21;overflow:hidden;white-space:nowrap;cursor:pointer;background:url('../images/dropdownItemDivider.png') repeat-x left bottom;font-size:13px}
+#dropDownItems li a:hover {color:#137dc8;}
+#dropDownItems li.last a{background:none;}
+#dropDownItems li a.selected {color:#137dc8;}
+.visibleContent{z-index:90;}
+.invisible{display:none;}
